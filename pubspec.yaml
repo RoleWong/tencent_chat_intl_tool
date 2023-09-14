@@ -13,6 +13,8 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: any
+  yaml: any
+  file: any
 
 dev_dependencies:
   flutter_test:
