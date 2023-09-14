@@ -1,7 +1,14 @@
 library tencent_chat_intl_tool;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'package:flutter/widgets.dart';
+import 'package:tencent_chat_intl_tool/localizations/tencent_cloud_chat_localizations.dart';
+
+TencentCloudChatLocalizations? tL10n = TencentChatIntlTool.localization;
+
+class TencentChatIntlTool{
+  static TencentCloudChatLocalizations? localization;
+
+  static init(BuildContext context){
+    localization = TencentCloudChatLocalizations.of(context);
+  }
 }
