@@ -22,7 +22,7 @@ With this package, you can easily manage multi-language translation entries, add
 - Comprehensive documentation and support.
 - Based on `intl`, further developed, and tailored to better suit our needs and improve usability.
 
-## Using Existing Localized Strings
+## Accessing Predefined Localized Strings
 
 Since our UIKit libraries have already included this package as a dependency, there is no need for you to add it manually.
 

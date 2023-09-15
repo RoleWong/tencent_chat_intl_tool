@@ -1,7 +1,7 @@
 name: tencent_chat_intl_tool
-description: A new Flutter project.
-version: 0.0.1
-homepage:
+description: A lightweight internationalization tool for Chat UIKit and other applications, based on Flutter's official `intl` solution.
+version: 1.0.0
+homepage: https://trtc.io/products/chat?utm_source=gfs&utm_medium=link&utm_campaign=%E6%B8%A0%E9%81%93&_channel_track_key=k6WgfCKn
 
 environment:
   sdk: '>=3.1.0 <4.0.0'
